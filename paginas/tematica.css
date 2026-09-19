@@ -1,0 +1,60 @@
+.botaoTopo {
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 10px;
+    background-color: #eae9e7;
+    font-size: 14px;
+    color: #242126;
+    margin-bottom: 10px;
+    margin-left:10px;
+    border: 2px solid hsl(190, 9%, 73%)
+    
+}
+
+.botaoTopo:hover {
+    background-color: #f6f4e0;
+    color: #243F42;
+    border: 2px solid hsl(60, 13%, 72%);
+
+}
+
+.navegacaoConteudo {
+    padding: 5px;
+    background-color: #d9e9e9;
+    color: #242126;
+    width: 80%;
+    margin: 20px auto;
+}
+
+.navegacaoConteudo h2 {
+    margin: 0 0 10px;
+}
+
+.botaoConteudo {
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 10px;
+    background-color: #c7dddc;
+    font-size: 14px;
+    color: #242126;
+    border: 2px solid hsla(191, 24%, 46%, 0.848);
+    margin: 5px;
+}
+
+.botaoConteudo:hover {
+    background-color: #d9f0ef;
+    border: 2px solid hsla(192, 58%, 70%, 0.848);
+}
+
+figcaption {
+    text-align: center;
+    margin-top: 8px;
+}
+
+img{
+    width: 470px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border: 3px solid hsl(190, 69%, 17%)
+}

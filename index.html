@@ -3,52 +3,95 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="geral.css">
+        <link rel="stylesheet" href="index.css">
         <title>
                 Site Pessoal
         </title>
+        <link rel="stylesheet" href="geral.css">
+        <link rel="stylesheet" href="index.css">
+
     </head>
-    <body>
+    <body>  
+        <header>
         <h1>Olá!! Prazer, Gabriella</h1>
-            <nav>
-                <a href="index.html">Sobre Mim | </a>
-                <a href="paginas/inspiracao.html">Quem me Inspira | </a>
-                <a href="paginas/cidade.html">Minha Cidade | </a>
-                <a href="paginas/sonho.html">Um Sonho | </a>
-                <a href="paginas/tematica.html">Página Temática</a>
-            </nav>  
-
+        <div class = "barraNav">
+            <nav class = "navegacao">
+                <a href="index.html" class="botao">Sobre Mim  </a>
+                <a href="paginas/inspiracao.html" class="botao">Quem me Inspira  </a>
+                <a href="paginas/cidade.html" class="botao">Minha Cidade  </a>
+                <a href="paginas/sonho.html" class="botao">Um Sonho  </a>
+                <a href="paginas/tematica.html" class="botao">Página Temática</a>
+            </nav>
+        </div>
+    </header>
         <main>
-            <p>Tenho 19 anos, nasci dia 23 de Abril de 2007, no interior do Ceará, mas crescida desde bebê aqui no Estado de <abbr title="São Paulo">SP</abbr>.</p>
-
+            <div class="bloco">
+                <div class="subBloco">
+                    <p>Tenho 19 anos, nasci dia 23 de Abril de 2007, no interior do Ceará, mas crescida desde bebê aqui no Estado de <abbr title="São Paulo">SP</abbr>.</p>
+                </div>
+            </div>
+            <div class ="bloco">
             <h2>Essa sou eu:</h2>
-                <img src= "imagens/FotoGabriella.jpeg" width="580"
-            alt="Foto da autora do site: Gabriella.">
-            
-            <section>
-                <h2>Estudos</h2>
-                <p>Atualmente estou no 4<sup>°</sup> Semestre do curso Bacharelado em Sistemas da Informação, no <abbr title="Instituto Federal de São Paulo">IFSP</abbr>, campus Votuporanga.</p>
-                <p>Recentemente, tenho me dedicado a aprender mais sobre programação e desenvolvimento web, com foco em tecnologias como HTML, CSS e JavaScript, através da disciplina "Desenvolvimento Web 1". Também, como foco, estou estudando a stack Backend Java e banco de dados PostGreSQL.</p>
-            </section>
+                <div class="subBloco">
+                    <figure><img src= "imagens/FotoGabriella.jpeg" width="55%"
+            alt="Foto da autora do site: Gabriella." class="fotoGabriella"></figure>
+                </div>
+            </div>
+            <div class="bloco">
+                <section>
+                    <h2>Estudos</h2>
+                    <div class="subBloco">
+                        <p>Atualmente estou no 4<sup>°</sup> Semestre do curso Bacharelado em Sistemas da Informação, no <abbr title="Instituto Federal de São Paulo">IFSP</abbr>, campus Votuporanga.</p>
+                        <p>Recentemente, tenho me dedicado a aprender mais sobre programação e desenvolvimento web, com foco em tecnologias como HTML, CSS e JavaScript, através da disciplina "Desenvolvimento Web 1". Também, como foco, estou estudando a stack Backend Java e banco de dados PostGreSQL.</p>
+                    </div>
+                </section>
+            </div>
 
-            <section>
-            <h2>Meus interesses:</h2>
-                <ul>
-                    <li>Tecnologia e programação (gerando interesse em IA)</li>
-                    <li>Filmes ou séries de ação, ficção, fantasia e romance.</li>
-                    <li>Doramas</li>
-                    <li>Livros de romance/romantasia, fantasia e ficção</li>
-                    <li>Catoliscismo</li>
-                </ul>     
-            </section>
+            <div class="bloco">
+                <section>
+                    <h2>Meus interesses:</h2>
+                    <div class="subBloco">
+                        <ul>
+                            <li>Tecnologia e programação (gerando interesse em IA)</li>
+                            <li>Filmes ou séries de ação, ficção, fantasia e romance.</li>
+                            <li>Doramas</li>
+                            <li>Livros de romance/romantasia, fantasia e ficção</li>
+                            <li>Catoliscismo</li>
+                        </ul>   
+                    </div>      
+                </section>
+            </div>
 
-            <section>
-                <h2>Redes Sociais:</h2>
-                <p>
-                    <a href=https://www.instagram.com/gabi_plnasci/ target="_blank">
-                        Instagram
-                    </a>
-                </p>
-            </section>
+            <div class="bloco">
+                <section>
+                    <h2>Redes Sociais:</h2>
+                    <div class="subBloco">
+                        <p class="botaoRedeSocial">
+                            <img src= "imagens/logoInstagram.png" width="15"
+            alt="Imagem do ícone do Instagram">
+                            <a href=https://www.instagram.com/gabi_plnasci/ target="_blank" >
+                                Instagram
+                            </a>
+                        </p>
+                    
+                        <p class="botaoRedeSocial">
+                            <img src= "imagens/logoLinkedIn.png" width="15"
+            alt="Imagem do ícone do LinkedIn">
+                            <a href=https://www.linkedin.com/in/gabriella-nascimento-2b1941356/ target="_blank" >
+                                linkedIn
+                            </a>
+                        </p>
+                        <p class="botaoRedeSocial">
+                            <img src= "imagens/logoGitHub.png" width="15"
+            alt="Imagem do ícone do GitHub">
+                            <a href=https://github.com/GabriellaNasci target="_blank" >
+                                GitHub
+                            </a>
+                        </p>
+                </section>
+                    </div>
+            </div>
 
         </main>
 

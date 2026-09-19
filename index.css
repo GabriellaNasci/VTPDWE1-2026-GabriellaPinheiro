@@ -1,0 +1,23 @@
+.botaoRedeSocial{
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 10px;
+    background-color: #d9e9e9;
+    font-size: 14px;
+    color: #242126;
+    margin: 0 8%;
+    border: 2px solid hsl(191, 51%, 35%);
+    
+
+}
+
+.botaoRedeSocial:hover {
+    background-color: #f6f4e0;
+    color: #243F42;
+    border: 2px solid hsl(60, 13%, 72%)
+}
+
+figure {
+    text-align: center;
+    margin: 20px 0;
+}

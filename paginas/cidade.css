@@ -1,0 +1,89 @@
+.fotosTanabi:hover{
+    opacity: 1.0;
+    outline: 4px solid #31565A;
+}
+
+.fotosTanabi{
+    opacity: 0.4;
+}
+
+.subBlocoAniversarioTanabi{
+    background-color: #B1CDCC;
+    border-radius: 10px;
+    width: 80vw;
+    height: 80vh;
+    padding: 20px;
+}
+
+.subBlocoLado{
+    display: flex;
+    gap: 20px;
+}
+
+.subBlocoLado section{
+    flex: 1;
+}
+
+
+.subBlocoLado img {
+    height: auto;
+    display: block;
+}
+
+figure img {
+    text-align: center;
+    margin: 20px auto;
+}
+
+.subBlocoLado figure {
+    text-align: center;
+    margin: 20px auto;
+}
+
+.fotosAniversario {
+    display: flex;
+    gap: 20px;
+}
+
+.fotosAniversario figure {
+    flex: 1;
+    margin: 0;
+}
+
+.imgAniversarioTanabi {
+    width: 470px;
+    height: auto;
+}
+
+.fotosAniversario figcaption {
+    text-align: center;
+    margin-top: 8px;
+}
+
+.fotosAniversario img{
+    width: 70%;
+    height: auto;
+    display: block;
+}
+
+iframe {
+    display: block;
+    margin: 20px auto;
+}
+
+.subBlocoImgLadoCidade {
+    text-align: center;
+}
+
+.subBlocoImgLadoCidade figure {
+    display: inline-block;
+    vertical-align: top;
+    margin: 10px;
+}
+
+.subBlocoImgLadoCidade img {
+    width: 300px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}

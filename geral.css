@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Ephesis&family=Quantico:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ephesis&family=Original+Surfer&family=Quantico:ital,wght@0,400;0,700;1,400;1,700&family=Righteous&display=swap');
+html{
+    background-color: #F6F4EF;  
+}
+
+body{
+    background-color: #EAE7E1;
+}
+
+h1{
+    color:#f7f7f7;
+}
+
+h2{
+    color: #25242A;
+    margin-left: 10px;
+    font-family: "Righteous", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+
+}
+
+h3{
+    color: #332f36;
+    margin-left: 10px;
+    font-family: "Quantico", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+p,li{
+    color: #332f36;
+    margin-left: 10px;
+}
+
+header {
+    background-color: #31565A;
+    text-align: center;
+    padding: 15px;
+
+}
+
+
+.navegacao nav {
+    display: flex;
+    gap: 10px;
+    padding: 10px 15px;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.botao {
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 20px;
+    background-color: #d9e9e9;
+    font-size: 14px;
+    color: #242126;
+    margin: 0 15px;
+    border: 2px solid hsl(191, 51%, 35%)
+}
+
+.botao:hover {
+    background-color: #f6f4e0;
+    color: #243F42;
+    border: 2px solid hsl(60, 13%, 72%)
+}
+
+
+.bloco {
+    margin-top: 30px;
+    background-color: #8FB7B8;
+    border-radius: 10px;
+    padding: 4px 4px 4px 4px;
+    width: 80%;
+    margin: 20px auto;
+}
+
+.subBloco {
+    background-color: #B1CDCC;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 5px;
+}
+
+
+.botaoVoltar {
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color:  #c7dddc;
+    font-size: 14px;
+    color: #242126;
+    border: 2px solid hsl(191, 51%, 35%);
+    margin-left: 10px;
+    margin: 20px auto;
+
+    
+}
+
+.botaoVoltar:hover {
+    background-color: #f6f4e0;
+    color: #243F42;
+    border: 2px solid hsl(60, 13%, 72%);
+}
