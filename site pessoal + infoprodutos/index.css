@@ -1,0 +1,110 @@
+.botaoRedeSocial{
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-size: 14px;
+    margin: 0 8%;
+}
+
+.botaoRedeSocial:hover {
+    background-color: #D7C5FF;
+    color: #1E132B;
+    border: 1px solid #8a54ff;
+}
+
+figure {
+    text-align: center;
+    margin: 20px 0;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+
+    grid-template-areas:
+        "introducao"
+        "estudos"
+        "interesses"
+        "redes";
+
+    gap: 20px;
+
+    align-items: start;
+}
+
+.introducao {
+    grid-area: introducao;
+}
+
+.estudos {
+    grid-area: estudos;
+}
+
+.interesses {
+    grid-area: interesses;
+}
+
+.redes {
+    grid-area: redes;
+}
+
+.introducao .subBloco {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+
+.redes .subBloco {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+
+@media (min-width: 900px) {
+
+       main {
+        grid-template-columns: 1fr 1fr;
+
+        grid-template-areas:
+            "introducao introducao"
+            "estudos interesses"
+            "redes redes";
+    }
+
+    .introducao {
+        grid-area: introducao;
+    }
+
+    .estudos {
+        grid-area: estudos;
+    }
+
+    .interesses {
+        grid-area: interesses;
+    }
+
+    .redes {
+        grid-area: redes;
+        width: 100%;
+    }
+
+    .introducao .subBloco {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .redes .subBloco {
+        flex-direction: row;
+        justify-content: center;
+        gap: 20px;
+    }
+}
+
+main .bloco {
+    width: 100%;
+    margin: 0;
+}

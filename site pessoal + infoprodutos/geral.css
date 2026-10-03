@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Ephesis&family=Quantico:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ephesis&family=Original+Surfer&family=Quantico:ital,wght@0,400;0,700;1,400;1,700&family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Emilys+Candy&family=Ephesis&family=Lobster&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Original+Surfer&family=Quantico:ital,wght@0,400;0,700;1,400;1,700&family=Righteous&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: "Nunito", Arial, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #F7F3FF;
+    color: #1E132B;
+    line-height: 1.5;
+}
+
+
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+    display: grid;
+
+}
+
+h1 {
+    color: #5B2C83;
+    font-weight: 800;
+    font-style: normal;
+}
+
+
+h2 {
+    color: #5B2C83;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    font-family: "Righteous", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+h3 {
+    color: #1E132B;
+    margin-left: 10px;
+    font-family: "Quantico", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+p,
+li {
+    color: #1E132B;
+    margin-left: 10px;
+}
+
+
+a {
+    color: #5B2C83;
+}
+
+
+header {
+    background-color: #FFFFFF;
+    text-align: center;
+    padding: 15px;
+    border-bottom: 1px solid #E4DDE8;
+}
+
+
+.navegacao {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px 15px;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #1E132B;
+}
+
+
+.navegacao a {
+    text-decoration: none;
+}
+
+
+
+.botao {
+    display: inline-block;
+    padding: 8px 14px;
+    border-radius: 8px;
+    background-color: #FFFFFF;
+    font-size: 14px;
+    color: #1E132B;
+    margin: 2px;
+    border: 1px solid #D7C5FF;
+    text-decoration: none;
+    
+}
+
+
+.botao:hover {
+    background-color: #D7C5FF;
+    color: #1E132B;
+    border-color: #5b1b92;
+}
+
+
+.bloco {
+    width: 100%;
+    margin: 20px auto;
+    background-color: #FFFFFF;
+    border: 1px solid #E4DDE8;
+    border-radius: 10px;
+    padding: 12px;
+}
+
+
+.subBloco {
+    background-color: #FFFFFF;
+    border: 1px solid #E4DDE8;
+    border-radius: 8px;
+    padding: 15px;
+    margin: 5px;
+}
+
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+figure {
+    text-align: center;
+    margin: 20px 0;
+}
+
+
+
+.botaoVoltar {
+    display: inline-block;
+    padding: 8px 14px;
+    border-radius: 5px;
+    font-size: 14px;
+    background-color: #FFFFFF;
+    color: #1E132B;
+    margin: 2px;
+    margin-left: 10px;
+    border: 1px solid #D7C5FF;
+    text-decoration: none;
+}
+
+
+
+.botaoVoltar:hover {
+    background-color: #D7C5FF;
+    color: #1E132B;
+    border-color: #5B2C83;
+    
+}
+
+
+
+footer {
+    background-color: #1E132B;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+
+footer p {
+    color: #FFFFFF;
+    margin-left: 0;
+}
+
+
+
+@media (min-width: 600px) {
+
+    .container {
+        padding: 20px;
+    }
+
+
+    .navegacao {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+
+
+    .bloco {
+        padding: 15px;
+    }
+
+}
+
+
+
+@media (min-width: 900px) {
+
+    .container {
+        max-width: 1200px;
+        padding: 25px;
+    }
+
+
+    .navegacao {
+        flex-direction: row;
+        flex-wrap: nowrap;
+        gap: 12px;
+    }
+
+
+    .botao {
+        border: none;
+        background-color: transparent;
+    }
+
+
+    .botao:hover {
+        background-color: #D7C5FF;
+        color: #1E132B;
+    }
+
+
+    .bloco {
+        padding: 15px;
+    }
+
+}

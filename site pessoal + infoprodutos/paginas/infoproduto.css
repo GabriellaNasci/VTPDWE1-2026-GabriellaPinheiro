@@ -1,0 +1,573 @@
+@import url('https://fonts.googleapis.com/css2?family=Emilys+Candy&family=Ephesis&family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,100..900&family=Lobster&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Original+Surfer&family=Quantico:ital,wght@0,400;0,700;1,400;1,700&family=Righteous&display=swap');
+
+
+body{
+    background-color: #08090D;
+    color: #7F8693;
+    font-family: "Inter Tight", Arial, sans-serif;
+    margin: 0;
+}
+
+p{
+    font-size: 18px;
+}
+
+
+/* MENU */
+
+nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+
+/* AREA PRINCIPAL */
+
+main{
+    width: 90%;
+    margin: 0 auto;
+    border-left: 1px solid #252933;
+    border-right: 1px solid #252933;
+}
+
+
+/* TELA PRINCIPAL */
+
+.telaPrincipal{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    text-align: left;
+    gap: 20px;
+    padding: 60px 20px;
+}
+
+.telaPrincipal h1{
+    color: #D7C5FF;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 50px;
+}
+
+.telaPrincipal h3{
+    color: #A7ABB5;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+}
+
+.telaPrincipal h4{
+    color: #7F8693;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 18px;
+}
+
+.telaPrincipal p{
+    color: #A7ABB5;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+}
+
+
+/* LINHAS */
+
+.linha{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    width: 100%;
+}
+
+.linha p{
+    margin: 0;
+}
+
+
+/* BOTÕES DA TELA PRINCIPAL */
+
+.botoes{
+    justify-content: flex-start;
+}
+
+
+/* BLOCO DE PROGRESSO */
+
+.blocoProgresso{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: flex-start;
+    gap: 20px;
+
+    border-radius: 10px;
+    border: 1px solid #252933;
+    background-color: #101219;
+
+    padding: 20px;
+    margin: 20px;
+}
+
+.blocoProgresso p{
+    color: #A7ABB5;
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 16px;
+}
+
+
+/* TOPO DO BLOCO */
+
+.topoBloco{
+    width: 100%;
+}
+
+
+/* PROGRESSO + PREÇO */
+
+.conteudoProgresso{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+
+/* BLOCO DO PROGRESSO */
+
+.progresso{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+
+/* BLOCO DO PREÇO */
+
+.blocoDestaque{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    text-align: left;
+    gap: 20px;
+
+    border-radius: 10px;
+    border: 1px solid #574B91;
+    background-color: #171225;
+
+    padding: 20px;
+}
+
+.blocoDestaque h1{
+    color: #F4F5F7;
+    font-size: 32px;
+}
+
+.blocoDestaque h3{
+    color: #F4F5F7;
+    font-size: 20px;
+}
+
+.blocoDestaque p{
+    color: #A7ABB5;
+    font-size: 17px;
+}
+
+
+/* TELAS */
+
+.tela{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    text-align: left;
+    gap: 20px;
+    padding: 40px 20px;
+}
+
+
+/* QUEST */
+
+.quest{
+    width: auto;
+}
+
+.questBloco{
+    width: 100%;
+}
+
+
+/* ITENS DA QUEST */
+
+.questItens{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    width: 100%;
+}
+
+
+/* BLOCO PADRÃO */
+
+.bloco{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+
+    border-radius: 10px;
+    padding: 20px;
+
+    border: 1px solid #252933;
+    background-color: #0D0F14;
+}
+
+
+/* SUBBLOCO */
+
+.subBloco{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 20px;
+
+    border-radius: 10px;
+    padding: 20px;
+
+    border: 1px solid #252A36;
+    background-color: #0D0F14;
+}
+
+
+/* SUBBLOCO INTERNO */
+
+.subBlocoInterno{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+
+    border-radius: 10px;
+    background-color: #101219;
+    border: 1px solid #252A36;
+    padding: 20px;
+}
+
+
+/* GRID DOS BLOCOS */
+
+.subBlocoGeral{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    width: 100%;
+}
+
+
+/* TEXTOS DAS TELAS */
+
+.tela p{
+    font-size: 18px;
+    font-family: "Inter Tight", Arial, sans-serif;
+}
+
+.tela h1{
+    color: #F4F5F7;
+    font-weight: 1000;
+    font-size: 35px;
+}
+
+.tela h2{
+    color: #F4F5F7;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.tela h3{
+    color: #F4F5F7;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.tela h4{
+    color: #F4F5F7;
+    font-weight: 500;
+    font-size: 19px;
+}
+
+
+/* TEXTOS DOS SUBBLOCOS */
+
+.subBloco p{
+    color: #A7ABB5;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.subBlocoInterno p{
+    color: #A7ABB5;
+    font-size: 17px;
+}
+
+
+/* CORES */
+
+.branco{
+    color: #F4F5F7;
+}
+
+.roxo{
+    color: #9B7CFF;
+}
+
+.roxo1{
+    color: #9B7CFF;
+}
+
+
+/* BORDA REDONDA */
+
+.bordaRedondo{
+    border-radius: 10px;
+    border: 1px solid #574B91;
+    padding: 5px 10px;
+    background-color: #171225;
+}
+
+
+/* BOTÃO PRINCIPAL */
+
+.botaoPrincipal{
+    background-color: #9B7CFF;
+    color: #101219;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+
+/* BOTÃO SECUNDÁRIO */
+
+.botaoSecundario{
+    background-color: #0D0F14;
+    color: #FFFFFF;
+    border: 1px solid #252933;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+
+/* RESPONSIVIDADE */
+
+@media (max-width: 700px){
+
+    main{
+        width: 95%;
+    }
+
+
+    nav{
+        flex-direction: column;
+        gap: 20px;
+    }
+
+
+    .telaPrincipal{
+        padding: 40px 20px;
+    }
+
+
+    .telaPrincipal h1{
+        font-size: 38px;
+    }
+
+
+    .telaPrincipal h3{
+        font-size: 18px;
+    }
+
+
+    .telaPrincipal p{
+        font-size: 17px;
+    }
+
+
+    /* PROGRESSO E PREÇO */
+
+    .conteudoProgresso{
+        grid-template-columns: 1fr;
+    }
+
+
+    /* BOTÕES */
+
+    .botoes{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+
+    /* GRIDS */
+
+    .subBlocoGeral{
+        grid-template-columns: 1fr;
+    }
+
+
+    .questItens{
+        grid-template-columns: 1fr;
+    }
+
+
+    /* TELAS */
+
+    .tela{
+        padding: 30px 15px;
+    }
+
+
+    .tela p{
+        font-size: 17px;
+    }
+
+
+    .tela h1{
+        font-size: 30px;
+    }
+
+
+    .tela h2{
+        font-size: 22px;
+    }
+
+
+    .tela h3{
+        font-size: 19px;
+    }
+
+
+    .tela h4{
+        font-size: 18px;
+    }
+
+
+    /* SUBBLOCOS */
+
+    .subBloco p{
+        font-size: 17px;
+    }
+
+}
+
+
+/* CELULAR MENOR */
+
+@media (max-width: 420px){
+
+    main{
+        width: 95%;
+    }
+
+
+    .telaPrincipal{
+        padding: 30px 15px;
+    }
+
+
+    .telaPrincipal h1{
+        font-size: 32px;
+    }
+
+
+    .telaPrincipal h3{
+        font-size: 17px;
+    }
+
+
+    .telaPrincipal p{
+        font-size: 16px;
+    }
+
+
+    .blocoProgresso{
+        margin: 10px;
+        padding: 15px;
+    }
+
+
+    .blocoProgresso p{
+        font-size: 15px;
+    }
+
+
+    .blocoDestaque{
+        padding: 15px;
+    }
+
+
+    .tela{
+        padding: 25px 10px;
+    }
+
+
+    .tela p{
+        font-size: 16px;
+    }
+
+
+    .tela h1{
+        font-size: 27px;
+    }
+
+
+    .tela h2{
+        font-size: 21px;
+    }
+
+
+    .tela h3{
+        font-size: 18px;
+    }
+
+
+    .tela h4{
+        font-size: 17px;
+    }
+
+
+    .subBloco{
+        padding: 15px;
+    }
+
+
+    .subBloco p{
+        font-size: 16px;
+    }
+
+
+    .subBlocoInterno{
+        padding: 15px;
+    }
+
+
+    .subBlocoInterno p{
+        font-size: 16px;
+    }
+
+}

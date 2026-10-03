@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Ephesis&display=swap');
+
+.citacao{
+    background-color: #E8E2E8;
+    padding: 1px;
+    margin: 10px auto;
+    max-width: 50%;
+    text-align: center;
+    border-left: 5px solid #31565A;
+}
+
+.citacao p{
+    font-family: "Ephesis", cursive;
+    font-weight: 400;
+    font-size: 24px;
+    font-style: normal;
+}
+
+.citacao cite {
+    display: block;
+    margin-top: 1px;
+    font-family: Georgia, serif;
+    font-size: 14px;
+    font-style: normal;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+figcaption {
+    text-align: center;
+    margin-top: 8px;
+}
+
+img{
+    width: 60%;
+    height: auto;
+    display: block;
+    margin: 0px auto;
+    border: 3px solid hsl(190, 69%, 17%);
+}
+
+.botaoInterno {
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: hsl(258, 89%, 96%);
+    font-size: 14px;
+    color: #242126;
+    border: 2px solid #724a95;
+    margin: 5px;
+    text-decoration: none;
+}
+
+.botaoInterno:hover {
+    background-color: #ccb5fa;
+    color: #243F42;
+    border: 2px solid #9d70ff;
+}
+
+a{
+    color: #242126;
+}
